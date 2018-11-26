@@ -12,6 +12,10 @@
 		117AD52521ACA55F0019B638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117AD52321ACA55F0019B638 /* Main.storyboard */; };
 		117AD52721ACA5600019B638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117AD52621ACA5600019B638 /* Assets.xcassets */; };
 		117AD52A21ACA5600019B638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117AD52821ACA5600019B638 /* LaunchScreen.storyboard */; };
+		117AD53221ACA8840019B638 /* Challenge1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117AD53121ACA8840019B638 /* Challenge1.xib */; };
+		117AD53421ACAC760019B638 /* Challenge2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117AD53321ACAC760019B638 /* Challenge2.xib */; };
+		117AD53621ACB1500019B638 /* Challenge3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117AD53521ACB1500019B638 /* Challenge3.xib */; };
+		117AD53821ACB29D0019B638 /* Challenge4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117AD53721ACB29D0019B638 /* Challenge4.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		117AD52621ACA5600019B638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117AD52921ACA5600019B638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		117AD52B21ACA5600019B638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117AD53121ACA8840019B638 /* Challenge1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Challenge1.xib; sourceTree = "<group>"; };
+		117AD53321ACAC760019B638 /* Challenge2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Challenge2.xib; sourceTree = "<group>"; };
+		117AD53521ACB1500019B638 /* Challenge3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Challenge3.xib; sourceTree = "<group>"; };
+		117AD53721ACB29D0019B638 /* Challenge4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Challenge4.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				117AD51F21ACA55F0019B638 /* AppDelegate.swift */,
 				117AD52121ACA55F0019B638 /* ViewController.swift */,
 				117AD52321ACA55F0019B638 /* Main.storyboard */,
+				117AD53121ACA8840019B638 /* Challenge1.xib */,
+				117AD53321ACAC760019B638 /* Challenge2.xib */,
+				117AD53521ACB1500019B638 /* Challenge3.xib */,
+				117AD53721ACB29D0019B638 /* Challenge4.xib */,
 				117AD52621ACA5600019B638 /* Assets.xcassets */,
 				117AD52821ACA5600019B638 /* LaunchScreen.storyboard */,
 				117AD52B21ACA5600019B638 /* Info.plist */,
@@ -125,6 +137,10 @@
 				117AD52A21ACA5600019B638 /* LaunchScreen.storyboard in Resources */,
 				117AD52721ACA5600019B638 /* Assets.xcassets in Resources */,
 				117AD52521ACA55F0019B638 /* Main.storyboard in Resources */,
+				117AD53821ACB29D0019B638 /* Challenge4.xib in Resources */,
+				117AD53421ACAC760019B638 /* Challenge2.xib in Resources */,
+				117AD53221ACA8840019B638 /* Challenge1.xib in Resources */,
+				117AD53621ACB1500019B638 /* Challenge3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
