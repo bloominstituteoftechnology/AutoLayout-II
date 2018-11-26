@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -12,14 +12,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="SRi-7j-1TI">
-                    <rect key="frame" x="8" y="238.5" width="359" height="190"/>
+                    <rect key="frame" x="8" y="92.5" width="651" height="190"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fj1-po-gCx">
-                            <rect key="frame" x="0.0" y="0.0" width="359" height="28"/>
+                            <rect key="frame" x="0.0" y="0.0" width="651" height="28"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Posts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcp-Oh-c0G">
                                     <rect key="frame" x="0.0" y="0.0" width="128.5" height="28"/>
@@ -28,7 +28,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ETF-C3-D98">
-                                    <rect key="frame" x="136.5" y="0.0" width="222.5" height="29"/>
+                                    <rect key="frame" x="136.5" y="0.0" width="514.5" height="29"/>
                                     <segments>
                                         <segment title="10"/>
                                         <segment title="20"/>
@@ -39,30 +39,30 @@
                             </subviews>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Que-W8-fwc">
-                            <rect key="frame" x="0.0" y="78" width="359" height="31"/>
+                            <rect key="frame" x="0.0" y="78" width="651" height="31"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Include Date/Author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShJ-rt-bOx">
-                                    <rect key="frame" x="0.0" y="0.0" width="302" height="31"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="594" height="31"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="right" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ljY-8k-ekD">
-                                    <rect key="frame" x="310" y="0.0" width="51" height="31"/>
+                                    <rect key="frame" x="602" y="0.0" width="51" height="31"/>
                                 </switch>
                             </subviews>
                         </stackView>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K4m-ZR-nB3">
-                            <rect key="frame" x="0.0" y="159" width="359" height="31"/>
+                            <rect key="frame" x="0.0" y="159" width="651" height="31"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gray Preferences" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPl-tL-su0">
-                                    <rect key="frame" x="0.0" y="0.0" width="302" height="31"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="594" height="31"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="right" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUy-mp-FsV">
-                                    <rect key="frame" x="310" y="0.0" width="51" height="31"/>
+                                    <rect key="frame" x="602" y="0.0" width="51" height="31"/>
                                 </switch>
                             </subviews>
                         </stackView>
