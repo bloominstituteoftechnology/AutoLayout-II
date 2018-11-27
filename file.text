@@ -1,0 +1,9 @@
+1. Auto layout is an Xcode feature that helps you to place constraints between objects to determine a certain layout. iOS developers use it because it can often by simpler than trying to design the layout just using code.
+
+2. You use compression resistance when the object(s) or text within another object is being unnecessarily clipped. You use content hugging to get Rid of padding around the text/object.
+
+3. You adjust priorities when two constraints conflict OR when you want auto-layout to treat one constraint as more important than another possibly conflicting restraint.
+
+4. You should nest stack views whenever convenient, which is generally the case. I see no challenges involved in nesting stack views when convenient.
+
+4. Autoshrink shrinks the text within a label or textview when constraints cause the label or textview to shrink. It is great because your text becomes responsive, however if you allow for the text to become too small then no one will be able to read it.
