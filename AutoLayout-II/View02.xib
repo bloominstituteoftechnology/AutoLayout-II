@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewController id="pdA-0W-6gb">
+            <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="T8d-WJ-qQv">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <prototypes>
+                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="kRN-R4-fEF">
+                        <rect key="frame" x="0.0" y="28" width="375" height="120"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kRN-R4-fEF" id="PJA-b1-MY2">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="McB-Ke-Sqi">
+                                    <rect key="frame" x="24" y="11" width="235" height="108"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is just to demonstrate the three lines of large text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZh-eW-fpp">
+                                            <rect key="frame" x="0.0" y="0.0" width="235" height="79.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is my small line of text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA9-cv-Klh">
+                                            <rect key="frame" x="0.0" y="87.5" width="235" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo2" translatesAutoresizingMaskIntoConstraints="NO" id="XoQ-ry-Zo2">
+                                    <rect key="frame" x="267" y="10" width="100" height="100"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="lwz-pf-mzM"/>
+                                        <constraint firstAttribute="height" constant="100" id="wfb-pu-HSV"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="XoQ-ry-Zo2" firstAttribute="centerY" secondItem="PJA-b1-MY2" secondAttribute="centerY" id="FCi-jV-yEA"/>
+                                <constraint firstItem="McB-Ke-Sqi" firstAttribute="top" secondItem="PJA-b1-MY2" secondAttribute="topMargin" id="Ij9-3v-1Sr"/>
+                                <constraint firstAttribute="bottomMargin" secondItem="McB-Ke-Sqi" secondAttribute="bottom" constant="-10" id="JaB-E6-JKy"/>
+                                <constraint firstAttribute="trailing" secondItem="XoQ-ry-Zo2" secondAttribute="trailing" constant="8" id="Uz4-Hg-wdf"/>
+                                <constraint firstItem="McB-Ke-Sqi" firstAttribute="leading" secondItem="PJA-b1-MY2" secondAttribute="leadingMargin" constant="8" id="wsf-J0-2S7"/>
+                                <constraint firstItem="XoQ-ry-Zo2" firstAttribute="leading" secondItem="McB-Ke-Sqi" secondAttribute="trailing" constant="8" id="xdE-VD-C7r"/>
+                            </constraints>
+                        </tableViewCellContentView>
+                    </tableViewCell>
+                </prototypes>
+                <connections>
+                    <outlet property="dataSource" destination="pdA-0W-6gb" id="xgY-aO-kbw"/>
+                    <outlet property="delegate" destination="pdA-0W-6gb" id="osu-5l-LYL"/>
+                </connections>
+            </tableView>
+            <point key="canvasLocation" x="37.600000000000001" y="63.418290854572717"/>
+        </tableViewController>
+    </objects>
+    <resources>
+        <image name="photo2" width="1125" height="750"/>
+    </resources>
+</document>
