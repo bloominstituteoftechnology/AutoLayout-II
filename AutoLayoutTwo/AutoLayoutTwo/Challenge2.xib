@@ -31,25 +31,31 @@
                                 <rect key="frame" x="0.0" y="0.0" width="364" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="248" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZB-nE-OhO">
-                                        <rect key="frame" x="0.0" y="0.0" width="364" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="364" height="62"/>
                                         <string key="text">Several large lines of text that extend out quite a bit as you see with this simple demonstrtation text that I am putting in here which you thought was copied exactly but is in fact deviating from the original text as I type. </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small line of text that is not quite as long but stops here. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VW-9s-sOr">
-                                        <rect key="frame" x="0.0" y="88" width="364" height="12"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="plJ-hi-tTt">
+                                        <rect key="frame" x="0.0" y="70" width="364" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwy-ql-9aE">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                                                <state key="normal" title="Like"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Small line of text that is not quite as long but stops here. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VW-9s-sOr">
+                                                <rect key="frame" x="88" y="0.0" width="276" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="tZB-nE-OhO" firstAttribute="top" secondItem="KMc-lY-Hr6" secondAttribute="top" id="71X-ag-fH8"/>
-                                    <constraint firstItem="7VW-9s-sOr" firstAttribute="leading" secondItem="KMc-lY-Hr6" secondAttribute="leading" priority="749" id="W7g-VC-Pby"/>
                                     <constraint firstItem="tZB-nE-OhO" firstAttribute="leading" secondItem="KMc-lY-Hr6" secondAttribute="leading" id="Y62-or-OPs"/>
-                                    <constraint firstAttribute="trailing" secondItem="7VW-9s-sOr" secondAttribute="trailing" priority="749" id="e1S-wc-srD"/>
-                                    <constraint firstAttribute="bottom" secondItem="7VW-9s-sOr" secondAttribute="bottom" priority="749" id="jdR-in-ros"/>
                                     <constraint firstAttribute="trailing" secondItem="tZB-nE-OhO" secondAttribute="trailing" id="t2H-IU-jAL"/>
                                 </constraints>
                             </stackView>
