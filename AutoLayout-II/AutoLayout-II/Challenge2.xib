@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0OE-ar-wlf">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0OE-ar-wlf" id="S25-bH-jfd">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo2" translatesAutoresizingMaskIntoConstraints="NO" id="J9H-rd-6W9">
+                        <rect key="frame" x="267" y="8.5" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="Pql-Kt-RiZ"/>
+                            <constraint firstAttribute="width" constant="100" id="xQo-fJ-w7k"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="njp-Sg-TEX">
+                        <rect key="frame" x="8" y="17.5" width="239" height="87"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3p-sn-iiS">
+                                <rect key="frame" x="0.0" y="0.0" width="226.5" height="64.5"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  </string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, Lorem ipsum." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DL1-Tw-03j">
+                                <rect key="frame" x="0.0" y="72.5" width="237.5" height="14.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="J9H-rd-6W9" secondAttribute="bottom" constant="8" id="0ZJ-X4-gDv"/>
+                    <constraint firstItem="njp-Sg-TEX" firstAttribute="centerY" secondItem="S25-bH-jfd" secondAttribute="centerY" id="0ea-Z6-LJs"/>
+                    <constraint firstItem="njp-Sg-TEX" firstAttribute="leading" secondItem="S25-bH-jfd" secondAttribute="leading" constant="8" id="C4n-lf-6ZL"/>
+                    <constraint firstItem="njp-Sg-TEX" firstAttribute="trailing" secondItem="J9H-rd-6W9" secondAttribute="leading" constant="-20" id="S7d-1g-tzE"/>
+                    <constraint firstItem="J9H-rd-6W9" firstAttribute="top" secondItem="S25-bH-jfd" secondAttribute="top" constant="8" id="cVg-Ij-6Z1"/>
+                    <constraint firstAttribute="trailing" secondItem="J9H-rd-6W9" secondAttribute="trailing" constant="8" id="gkr-3T-shq"/>
+                    <constraint firstItem="njp-Sg-TEX" firstAttribute="top" secondItem="S25-bH-jfd" secondAttribute="topMargin" constant="6" id="tM3-Ck-3Tp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="66" y="67"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="photo2" width="1125" height="750"/>
+    </resources>
+</document>
