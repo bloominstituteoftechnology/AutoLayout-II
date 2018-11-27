@@ -21,11 +21,16 @@ In this challenge, you build a series of interfaces using view (xib) files to la
 Demonstrate your understanding of today's concepts by answering the following free-form questions. Submit them as a text file along with your project.
 
 * What is auto layout and why do iOS developers use it?
+        Auto layout is a technology that allows developers to create dynamically adaptive layouts for many screens, devices, orientations and devices. 
 * When do you use compression resistance? When do you use content hugging?
+        Compression resistance lets us state that a certain view or visual element should resist being compressed. Content hugging lets us get rid of padding around an element. 
 * When do you adjust priorities and why? 
+        Interface builder needs to understand the hierarchy of priorities so it should be adjusted anytime multiple priorities and similar or when the behavior of your layout needs adjusting. 
 * When should you nest stack views? What challenges are involved in nesting stack views? 
+        You should almost always use stack views and nesting them should be used then you want to vertically or horizontally align items in your views. Spacing, alignment and orientation can all be challenges but are also solveable. 
 * How does text autoshrink work and what are its advantages and disadvantages?
-
+        It allows us to set a minimum size text so text can be shrunken before it is truncated using an ellipsis. It can have unexpected results as it tries to balance shrinking or not shrinking the text and surrounding visual elements. 
+        
 ## Project Note
 
 Today you are not building a full project. You will create several view files (xib files) and then build the contents according to the following challenges.
