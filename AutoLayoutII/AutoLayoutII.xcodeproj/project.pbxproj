@@ -15,6 +15,8 @@
 		C4E0DA1921ACA0EA00CC7F7D /* Challenge1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E0DA1821ACA0EA00CC7F7D /* Challenge1.xib */; };
 		C4E0DA1B21ACA14500CC7F7D /* photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4E0DA1A21ACA14500CC7F7D /* photo.jpeg */; };
 		C4E0DA1D21ACAAE300CC7F7D /* Challenge3.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E0DA1C21ACAAE300CC7F7D /* Challenge3.xib */; };
+		C4E0DA1F21ACAF6F00CC7F7D /* Challenge2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E0DA1E21ACAF6F00CC7F7D /* Challenge2.xib */; };
+		C4E0DA2121ACB62B00CC7F7D /*  Challenge4.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E0DA2021ACB62B00CC7F7D /*  Challenge4.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C4E0DA1821ACA0EA00CC7F7D /* Challenge1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Challenge1.xib; sourceTree = "<group>"; };
 		C4E0DA1A21ACA14500CC7F7D /* photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpeg; path = ../../photo.imageset/photo.jpeg; sourceTree = "<group>"; };
 		C4E0DA1C21ACAAE300CC7F7D /* Challenge3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Challenge3.xib; sourceTree = "<group>"; };
+		C4E0DA1E21ACAF6F00CC7F7D /* Challenge2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Challenge2.xib; sourceTree = "<group>"; };
+		C4E0DA2021ACB62B00CC7F7D /*  Challenge4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = " Challenge4.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,9 @@
 				C4E0DA0F21ACA03F00CC7F7D /* LaunchScreen.storyboard */,
 				C4E0DA1221ACA03F00CC7F7D /* Info.plist */,
 				C4E0DA1821ACA0EA00CC7F7D /* Challenge1.xib */,
+				C4E0DA1E21ACAF6F00CC7F7D /* Challenge2.xib */,
 				C4E0DA1C21ACAAE300CC7F7D /* Challenge3.xib */,
+				C4E0DA2021ACB62B00CC7F7D /*  Challenge4.xib */,
 			);
 			path = AutoLayoutII;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 				C4E0DA1121ACA03F00CC7F7D /* LaunchScreen.storyboard in Resources */,
 				C4E0DA0E21ACA03F00CC7F7D /* Assets.xcassets in Resources */,
 				C4E0DA0C21ACA03E00CC7F7D /* Main.storyboard in Resources */,
+				C4E0DA1F21ACAF6F00CC7F7D /* Challenge2.xib in Resources */,
 				C4E0DA1921ACA0EA00CC7F7D /* Challenge1.xib in Resources */,
 				C4E0DA1D21ACAAE300CC7F7D /* Challenge3.xib in Resources */,
+				C4E0DA2121ACB62B00CC7F7D /*  Challenge4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
